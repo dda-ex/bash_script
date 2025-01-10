@@ -19,3 +19,13 @@ if [[ -z $SCRIPT ]]; then
     script -f -q ${SCRIPT}
 fi
 ```
+Script execution
+1. Change execution permission
+```bash
+chmod u+x ./name_of_the_script.sh
+```
+
+2. Execution
+``` bash
+./name_of_the_script.sh
+```
